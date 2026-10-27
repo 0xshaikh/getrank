@@ -300,7 +300,19 @@ def list_leaderboards():
                 },
             )
         )
-    return jsonify({"leaderboards": out})
+
+    # Global stats for hero counters
+    total_boards = conn.execute("SELECT COUNT(*) c FROM leaderboards").fetchone()["c"]
+    total_entries = conn.execute("SELECT COUNT(*) c FROM entries").fetchone()["c"]
+    total_votes = conn.execute("SELECT COUNT(*) c FROM votes").fetchone()["c"]
+    return jsonify({
+        "leaderboards": out,
+        "stats": {
+            "leaderboards": total_boards,
+            "entries": total_entries,
+            "votes": total_votes,
+        },
+    })
 
 
 @app.post("/api/leaderboards")

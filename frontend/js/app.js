@@ -28,6 +28,7 @@ const elements = {
 document.addEventListener('DOMContentLoaded', () => {
     checkAuth();
     loadLeaderboards();
+    loadCategories();
     setupEventListeners();
 });
 
