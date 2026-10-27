@@ -3,28 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GetRank.fun - Leaderboards & Rankings</title>
+    <title>GetRank.fun - #1 Leaderboard & Ranking Platform</title>
+    <meta name="description" content="Create leaderboards, submit entries, vote for the best, and climb the ranks. GetRank.fun is the ultimate ranking platform for competitions, contests, and communities.">
+    <meta property="og:title" content="GetRank.fun - The Ultimate Ranking Platform">
+    <meta property="og:description" content="Create leaderboards, submit entries, vote for the best, and climb the ranks.">
+    <meta property="og:type" content="website">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0%25' stop-color='%23ffd700'/%3E%3Cstop offset='100%25' stop-color='%23ff8c00'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='32' height='32' rx='8' fill='url(%23g)'/%3E%3Cpath d='M10 20l4-6 4 6M14 14V10' stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <div id="app">
+        <!-- Navbar -->
         <nav class="navbar">
-            <div class="nav-brand">🏆 GetRank.fun</div>
-            <div class="nav-links">
-                <a href="#home" class="nav-link active">Home</a>
-                <a href="#leaderboards" class="nav-link">Leaderboards</a>
-                <a href="#submit" class="nav-link">Submit</a>
-            </div>
-            <div class="nav-auth">
-                <button id="loginBtn" class="btn btn-outline">Login</button>
-                <button id="registerBtn" class="btn btn-primary">Register</button>
+            <div class="nav-container">
+                <a href="#home" class="nav-brand">
+                    <svg width="28" height="28" viewBox="0 0 32 32" fill="none">
+                        <defs>
+                            <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+                                <stop offset="0%" stop-color="#ffd700"/>
+                                <stop offset="100%" stop-color="#ff8c00"/>
+                            </linearGradient>
+                        </defs>
+                        <rect width="32" height="32" rx="8" fill="url(#g)"/>
+                        <path d="M10 20l4-6 4 6M14 14V10" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <span>GetRank</span>
+                </a>
+                <div class="nav-links">
+                    <a href="#home" class="nav-link active">Home</a>
+                    <a href="#leaderboards" class="nav-link">Leaderboards</a>
+                    <a href="#submit" class="nav-link">Create</a>
+                </div>
+                <div class="nav-auth">
+                    <button id="loginBtn" class="btn btn-ghost">Login</button>
+                    <button id="registerBtn" class="btn btn-primary">Get Started</button>
+                </div>
             </div>
         </nav>
 
+        <!-- Hero -->
         <section id="home" class="hero">
             <div class="container">
-                <h1 class="hero-title">The Ultimate Ranking Platform</h1>
-                <p class="hero-subtitle">Create leaderboards, submit entries, and vote for the best!</p>
+                <div class="hero-badge">🏆 #1 Ranking Platform</div>
+                <h1 class="hero-title">Rank What Matters</h1>
+                <p class="hero-subtitle">Create leaderboards, submit entries, and let the community decide the winners.</p>
+                <div class="hero-cta">
+                    <button class="btn btn-primary btn-lg" onclick="document.getElementById('submit').scrollIntoView()">Create a Leaderboard</button>
+                    <button class="btn btn-outline btn-lg" onclick="document.getElementById('leaderboards').scrollIntoView()">Explore Rankings</button>
+                </div>
                 <div class="hero-stats">
                     <div class="stat-card">
                         <h3 id="statLeaderboards">0</h3>
@@ -36,12 +65,13 @@
                     </div>
                     <div class="stat-card">
                         <h3 id="statVotes">0</h3>
-                        <p>Votes</p>
+                        <p>Votes Cast</p>
                     </div>
                 </div>
             </div>
         </section>
 
+        <!-- Leaderboards -->
         <section id="leaderboards" class="section">
             <div class="container">
                 <h2 class="section-title">Popular Leaderboards</h2>
@@ -54,9 +84,11 @@
             </div>
         </section>
 
-        <section id="submit" class="section">
+        <!-- Create Leaderboard -->
+        <section id="submit" class="section section-dark">
             <div class="container">
                 <h2 class="section-title">Create a Leaderboard</h2>
+                <p class="section-subtitle">Start a new competition and let people vote</p>
                 <form id="createLeaderboardForm" class="form">
                     <div class="form-group">
                         <label for="leaderboardName">Leaderboard Name</label>
@@ -78,14 +110,24 @@
                         <label for="leaderboardDescription">Description</label>
                         <textarea id="leaderboardDescription" rows="3" placeholder="Describe your leaderboard..."></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary">Create Leaderboard</button>
+                    <button type="submit" class="btn btn-primary btn-lg">Create Leaderboard</button>
                 </form>
             </div>
         </section>
 
+        <!-- Footer -->
         <footer class="footer">
             <div class="container">
-                <p>&copy; 2024 GetRank.fun - The Ultimate Ranking Platform</p>
+                <div class="footer-content">
+                    <div class="footer-brand">
+                        <svg width="24" height="24" viewBox="0 0 32 32" fill="none">
+                            <rect width="32" height="32" rx="8" fill="#ffd700"/>
+                            <path d="M10 20l4-6 4 6M14 14V10" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <span>GetRank</span>
+                    </div>
+                    <p>&copy; 2026 GetRank.fun - Rank What Matters</p>
+                </div>
             </div>
         </footer>
     </div>
@@ -94,17 +136,18 @@
     <div id="loginModal" class="modal">
         <div class="modal-content">
             <span class="modal-close">&times;</span>
-            <h2>Login</h2>
+            <h2>Welcome Back</h2>
+            <p class="modal-subtitle">Login to continue</p>
             <form id="loginForm">
                 <div class="form-group">
                     <label for="loginEmail">Email</label>
-                    <input type="email" id="loginEmail" required>
+                    <input type="email" id="loginEmail" required placeholder="you@example.com">
                 </div>
                 <div class="form-group">
                     <label for="loginPassword">Password</label>
-                    <input type="password" id="loginPassword" required>
+                    <input type="password" id="loginPassword" required placeholder="••••••••">
                 </div>
-                <button type="submit" class="btn btn-primary">Login</button>
+                <button type="submit" class="btn btn-primary btn-lg">Login</button>
             </form>
         </div>
     </div>
@@ -113,21 +156,22 @@
     <div id="registerModal" class="modal">
         <div class="modal-content">
             <span class="modal-close">&times;</span>
-            <h2>Register</h2>
+            <h2>Create Account</h2>
+            <p class="modal-subtitle">Join the community</p>
             <form id="registerForm">
                 <div class="form-group">
                     <label for="registerName">Display Name</label>
-                    <input type="text" id="registerName" required>
+                    <input type="text" id="registerName" required placeholder="Your name">
                 </div>
                 <div class="form-group">
                     <label for="registerEmail">Email</label>
-                    <input type="email" id="registerEmail" required>
+                    <input type="email" id="registerEmail" required placeholder="you@example.com">
                 </div>
                 <div class="form-group">
                     <label for="registerPassword">Password</label>
-                    <input type="password" id="registerPassword" required>
+                    <input type="password" id="registerPassword" required placeholder="••••••••">
                 </div>
-                <button type="submit" class="btn btn-primary">Register</button>
+                <button type="submit" class="btn btn-primary btn-lg">Create Account</button>
             </form>
         </div>
     </div>

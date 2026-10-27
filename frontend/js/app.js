@@ -1,5 +1,6 @@
 // GetRank.fun - Frontend Application
-const API_BASE = 'http://localhost:5002/api';
+// Use relative API base so it works locally AND through the cloudflare tunnel
+const API_BASE = '/api';
 
 // State
 let currentUser = null;
