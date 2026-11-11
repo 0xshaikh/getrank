@@ -1,0 +1,529 @@
+{
+  "leaderboards": [
+    {
+      "id": "1",
+      "name": "Best FPS Games of 2026",
+      "category": "Gaming",
+      "description": "Community-picked top competitive shooters this year.",
+      "entry_count": 6,
+      "vote_count": 191,
+      "entries": [
+        {
+          "id": "1-1",
+          "title": "Halo Infinite: Rebirth",
+          "submitter": "ArenaFPS_Queen",
+          "description": "Grounded arena combat with a fresh movement kit.",
+          "score": 41
+        },
+        {
+          "id": "1-2",
+          "title": "Overwatch 3",
+          "submitter": "TracerFan22",
+          "description": "Team-based hero shooter at the top of its game.",
+          "score": 38
+        },
+        {
+          "id": "1-3",
+          "title": "Call of Duty: Black Ops 7",
+          "submitter": "GhostRider",
+          "description": "Fast, punishing TTK with a great ranked ladder.",
+          "score": 33
+        },
+        {
+          "id": "1-4",
+          "title": "Counter-Strike 2",
+          "submitter": "ClutchOrKick",
+          "description": "The tactical classic that never stops evolving.",
+          "score": 30
+        },
+        {
+          "id": "1-5",
+          "title": "Valorant",
+          "submitter": "SpikeRush",
+          "description": "Precision utility play and crisp gunfights.",
+          "score": 27
+        },
+        {
+          "id": "1-6",
+          "title": "Apex Legends",
+          "submitter": "JumpPadJay",
+          "description": "Movement shooter with the best ping system in the genre.",
+          "score": 22
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Best Open-World Games",
+      "category": "Gaming",
+      "description": "Worlds you can lose yourself in for a hundred hours.",
+      "entry_count": 5,
+      "vote_count": 177,
+      "entries": [
+        {
+          "id": "2-1",
+          "title": "Elden Ring",
+          "submitter": "TarnishedOne",
+          "description": "A sprawling, punishing masterpiece of discovery.",
+          "score": 45
+        },
+        {
+          "id": "2-2",
+          "title": "The Witcher 3",
+          "submitter": "GeraltOfRivia",
+          "description": "Every side quest feels like a main quest.",
+          "score": 40
+        },
+        {
+          "id": "2-3",
+          "title": "Red Dead Redemption 2",
+          "submitter": "ArthurMorgan",
+          "description": "The most alive frontier ever rendered.",
+          "score": 36
+        },
+        {
+          "id": "2-4",
+          "title": "Breath of the Wild 2",
+          "submitter": "KorokHunter",
+          "description": "Verticality and physics that reward curiosity.",
+          "score": 31
+        },
+        {
+          "id": "2-5",
+          "title": "Cyberpunk 2077: Phantom Liberty",
+          "submitter": "NightCityRider",
+          "description": "A city that finally feels lived-in.",
+          "score": 25
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Best Albums of the Decade",
+      "category": "Music",
+      "description": "The records that defined the last ten years.",
+      "entry_count": 5,
+      "vote_count": 158,
+      "entries": [
+        {
+          "id": "3-1",
+          "title": "Blonde",
+          "submitter": "VinylOnly",
+          "description": "Frank Ocean's quiet, devastating masterpiece.",
+          "score": 44
+        },
+        {
+          "id": "3-2",
+          "title": "To Pimp a Butterfly",
+          "submitter": "JazzHop",
+          "description": "Kendrick's sprawling, ambitious opus.",
+          "score": 40
+        },
+        {
+          "id": "3-3",
+          "title": "In Rainbows (Live)",
+          "submitter": "RadioheadFan",
+          "description": "A band at their most human.",
+          "score": 29
+        },
+        {
+          "id": "3-4",
+          "title": "Sour",
+          "submitter": "PopSiren",
+          "description": "A debut that captured a generation's heartbreak.",
+          "score": 24
+        },
+        {
+          "id": "3-5",
+          "title": "The Slow Rush",
+          "submitter": "SynthWave",
+          "description": "Tame Impala's warm, hypnotic groove.",
+          "score": 21
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Best Live Performances",
+      "category": "Music",
+      "description": "Concerts that turned into legend.",
+      "entry_count": 4,
+      "vote_count": 109,
+      "entries": [
+        {
+          "id": "4-1",
+          "title": "Glastonbury 2025",
+          "submitter": "FestivalHead",
+          "description": "Three nights, one unforgettable crowd.",
+          "score": 33
+        },
+        {
+          "id": "4-2",
+          "title": "Coachella Main Stage",
+          "submitter": "DesertEcho",
+          "description": "Production so good it felt cinematic.",
+          "score": 28
+        },
+        {
+          "id": "4-3",
+          "title": "Tiny Desk Sessions",
+          "submitter": "OfficeGig",
+          "description": "Intimate, stripped-back, pure talent.",
+          "score": 26
+        },
+        {
+          "id": "4-4",
+          "title": "Madison Square Garden",
+          "submitter": "BigApple",
+          "description": "The arena show done right.",
+          "score": 22
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Top Indie Game Art",
+      "category": "Art",
+      "description": "Stunning pixel & concept art from indie studios.",
+      "entry_count": 5,
+      "vote_count": 165,
+      "entries": [
+        {
+          "id": "5-1",
+          "title": "Hollow Knight: Silksong",
+          "submitter": "BugArtist",
+          "description": "Hand-drawn world with breathtaking scale.",
+          "score": 42
+        },
+        {
+          "id": "5-2",
+          "title": "Cuphead",
+          "submitter": "Inkwell",
+          "description": "1930s cartoon style, painstakingly animated.",
+          "score": 37
+        },
+        {
+          "id": "5-3",
+          "title": "Ori and the Will of the Wisps",
+          "submitter": "WillOWisp",
+          "description": "Light-drenched painterly platforming.",
+          "score": 34
+        },
+        {
+          "id": "5-4",
+          "title": "Dead Cells",
+          "submitter": "PixelPunk",
+          "description": "Atmospheric pixel art that never gets old.",
+          "score": 27
+        },
+        {
+          "id": "5-5",
+          "title": "Celeste",
+          "submitter": "MountainClimber",
+          "description": "Tiny sprites, enormous heart.",
+          "score": 25
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Best Digital Illustrations",
+      "category": "Art",
+      "description": "Concept art and digital painting that wowed the community.",
+      "entry_count": 4,
+      "vote_count": 97,
+      "entries": [
+        {
+          "id": "6-1",
+          "title": "Neon Alley",
+          "submitter": "PixelNomad",
+          "description": "Cyberpunk street scene with perfect color grading.",
+          "score": 29
+        },
+        {
+          "id": "6-2",
+          "title": "Storm Gatherer",
+          "submitter": "CloudBrush",
+          "description": "A fantasy landscape that feels like a window.",
+          "score": 26
+        },
+        {
+          "id": "6-3",
+          "title": "Bioluminescent Bay",
+          "submitter": "NightGlow",
+          "description": "Glowing detail work that rewards zooming in.",
+          "score": 23
+        },
+        {
+          "id": "6-4",
+          "title": "The Long Walk",
+          "submitter": "MonoLine",
+          "description": "Minimalist composition, maximum mood.",
+          "score": 19
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Best Street Photography",
+      "category": "Photography",
+      "description": "Award-winning street shots from around the world.",
+      "entry_count": 4,
+      "vote_count": 113,
+      "entries": [
+        {
+          "id": "7-1",
+          "title": "Tokyo Crossing",
+          "submitter": "ShutterBug",
+          "description": "A frozen moment in the world's busiest scramble.",
+          "score": 35
+        },
+        {
+          "id": "7-2",
+          "title": "Monsoon Umbrella",
+          "submitter": "RainShot",
+          "description": "One frame, perfect symmetry, perfect timing.",
+          "score": 30
+        },
+        {
+          "id": "7-3",
+          "title": "The Bicycle Courier",
+          "submitter": "RushHour",
+          "description": "A split-second slice of city life.",
+          "score": 26
+        },
+        {
+          "id": "7-4",
+          "title": "Last Train Home",
+          "submitter": "NightShift",
+          "description": "Quiet geometry of a late platform.",
+          "score": 22
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Best Landscape Photography",
+      "category": "Photography",
+      "description": "Golden-hour and long-exposure landscapes that inspire.",
+      "entry_count": 4,
+      "vote_count": 103,
+      "entries": [
+        {
+          "id": "8-1",
+          "title": "Antelope Canyon",
+          "submitter": "RedRock",
+          "description": "Light beams through centuries of carved stone.",
+          "score": 31
+        },
+        {
+          "id": "8-2",
+          "title": "Northern Lights Over Lofoten",
+          "submitter": "AuroraChaser",
+          "description": "The sky on fire above a frozen fjord.",
+          "score": 28
+        },
+        {
+          "id": "8-3",
+          "title": "Misty Rice Terraces",
+          "submitter": "MountainFog",
+          "description": "Layer upon layer of morning fog.",
+          "score": 24
+        },
+        {
+          "id": "8-4",
+          "title": "Desert Dunes at Dusk",
+          "submitter": "SandRipples",
+          "description": "Shadows that carve the sand into art.",
+          "score": 20
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Best AI Developer Tools",
+      "category": "Technology",
+      "description": "Tools that genuinely make shipping software faster.",
+      "entry_count": 6,
+      "vote_count": 193,
+      "entries": [
+        {
+          "id": "9-1",
+          "title": "Claude Code",
+          "submitter": "TerminalDev",
+          "description": "Agentic coding in the terminal \u2014 plans, edits, runs, tests.",
+          "score": 46
+        },
+        {
+          "id": "9-2",
+          "title": "Cursor",
+          "submitter": "IDEPro",
+          "description": "An editor that predicts your next diff.",
+          "score": 41
+        },
+        {
+          "id": "9-3",
+          "title": "Copilot Workspace",
+          "submitter": "GitHubDev",
+          "description": "From issue to PR with a full plan in between.",
+          "score": 32
+        },
+        {
+          "id": "9-4",
+          "title": "Aider",
+          "submitter": "DiffDriver",
+          "description": "Pair-programming in your terminal with git-native edits.",
+          "score": 28
+        },
+        {
+          "id": "9-5",
+          "title": "Continue",
+          "submitter": "LocalFirst",
+          "description": "Open-source assistant that runs against any model.",
+          "score": 25
+        },
+        {
+          "id": "9-6",
+          "title": "Windsurf",
+          "submitter": "CascadeDev",
+          "description": "Agentic flow that reads your whole codebase.",
+          "score": 21
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Best Productivity Apps",
+      "category": "Technology",
+      "description": "Apps that earn their place on the home screen.",
+      "entry_count": 4,
+      "vote_count": 114,
+      "entries": [
+        {
+          "id": "10-1",
+          "title": "Notion",
+          "submitter": "WorkspaceOne",
+          "description": "One place for docs, wikis, and projects.",
+          "score": 34
+        },
+        {
+          "id": "10-2",
+          "title": "Raycast",
+          "submitter": "LauncherPro",
+          "description": "A launcher that replaced five other apps.",
+          "score": 30
+        },
+        {
+          "id": "10-3",
+          "title": "Obsidian",
+          "submitter": "GraphNote",
+          "description": "Local-first notes on a graph of your making.",
+          "score": 27
+        },
+        {
+          "id": "10-4",
+          "title": "Linear",
+          "submitter": "IssueFlow",
+          "description": "Issues that feel fast because they are.",
+          "score": 23
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Best Esports Teams",
+      "category": "Sports",
+      "description": "The orgs dominating the competitive circuit right now.",
+      "entry_count": 4,
+      "vote_count": 108,
+      "entries": [
+        {
+          "id": "11-1",
+          "title": "T1",
+          "submitter": "MidLaneKing",
+          "description": "The dynasty that refuses to fade.",
+          "score": 33
+        },
+        {
+          "id": "11-2",
+          "title": "G2 Esports",
+          "submitter": "ClutchMaster",
+          "description": "Europe's most explosive roster.",
+          "score": 28
+        },
+        {
+          "id": "11-3",
+          "title": "NAVI",
+          "submitter": "AWPGod",
+          "description": "CS2 majors and a never-say-die attitude.",
+          "score": 25
+        },
+        {
+          "id": "11-4",
+          "title": "Team Liquid",
+          "submitter": "DotaDynasty",
+          "description": "Consistent, deep runs every season.",
+          "score": 22
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Best Cricket Players",
+      "category": "Sports",
+      "description": "The finest talents in world cricket right now.",
+      "entry_count": 5,
+      "vote_count": 150,
+      "entries": [
+        {
+          "id": "12-1",
+          "title": "Virat Kohli",
+          "submitter": "ChaseMaster",
+          "description": "The run-chaser who never blinks.",
+          "score": 38
+        },
+        {
+          "id": "12-2",
+          "title": "Jasprit Bumrah",
+          "submitter": "YorkerKing",
+          "description": "A death bowler who bends physics.",
+          "score": 35
+        },
+        {
+          "id": "12-3",
+          "title": "Shubman Gill",
+          "submitter": "CoverDrive",
+          "description": "Silky timing, endless appetite for runs.",
+          "score": 29
+        },
+        {
+          "id": "12-4",
+          "title": "Rohit Sharma",
+          "submitter": "Hitman",
+          "description": "Pull shots that clear the stadium.",
+          "score": 26
+        },
+        {
+          "id": "12-5",
+          "title": "Mohammed Shami",
+          "submitter": "SwingBowler",
+          "description": "Seam bowling at its most clinical.",
+          "score": 22
+        }
+      ]
+    }
+  ],
+  "categories": [
+    "Gaming",
+    "Music",
+    "Art",
+    "Photography",
+    "Technology",
+    "Sports"
+  ],
+  "stats": {
+    "leaderboards": 12,
+    "entries": 56,
+    "votes": 1678
+  }
+}

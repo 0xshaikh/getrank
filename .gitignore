@@ -1,0 +1,6 @@
+backend/getrank.db
+backend/__pycache__/
+*.db
+*.pyc
+__pycache__/
+video_scenes/
